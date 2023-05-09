@@ -1,10 +1,12 @@
 # API-TODOLIST
 
 ## Prérequis
-Sqlite
+[Docker](https://www.docker.com/)
 
-### Installer SQlite
-[SQlite](https://www.sqlite.org/2023/sqlite-tools-win32-x86-3410200.zip)
+### Récupérer une image MongoDB dans docker
+```
+docker pull mongo
+```
 
 ## Déploiement
 Déploiment standard

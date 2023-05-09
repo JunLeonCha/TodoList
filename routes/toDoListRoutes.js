@@ -1,9 +1,10 @@
 import express from "express"
+import { getTodoList } from "../cqrs/query";
 
 const router = express.Router()
 
-router.get("/getList", (req, res) => {
-    res.send("hello")
+router.get("/getList", getTodoList => {
+    
 });
 router.post("/addTodo", (req, res) => {
     res.send("")
